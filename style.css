@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 33, 53, 0.562);
+}
+
+header {
+   width: 100vw;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(imagens/fundo04.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+header > h1 {
+    color:aliceblue ;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+header > p {
+    margin-left: 10px;
+    color: aliceblue;
+}
+header > #imgh {
+    margin: 10px;
+     height: 150px;
+     width: 150px;
+     border:2px,  solid black;
+     border-radius: 49%;
+}
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: space-evenly;                                               
+    
+}
+
+nav >ul {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul >li >a {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.329);
+    
+}
+
+nav > ul >li >a:hover {
+
+color: aliceblue;
+}
+
+nav > ul > li {
+    background-color: rgb(143, 119, 252);
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+nav > ul > li:hover{
+    transform: translate(-5px,-5px);
+    background-color: rgb(48, 0, 94);
+    transition-duration: 0.5ms;
+} 
+
+
+.isobre {
+    width: 99vw;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url(imagens/fundop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.isobre > legend {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px white;
+}
+
+.isobre>ul > li {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.isobre >ul > li {
+    margin-top: 20px;
+    color: white;
+  
+}.iforme {
+    
+    width: 99vw;
+    padding-bottom: 200px;
+    text-align: center ;
+    margin-top: 50px;
+    background-image: url(imagens/fundop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+}
+
+.iforme > legend {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px white;
+}
+
+.iforme >ul > li {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.iforme >ul > li {
+    margin-top: 20px;
+    color: white;
+  
+}
+.iprojeto {
+    
+    width: 99vw;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(imagens/fundop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.iprojeto > legend {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px white;
+}
+
+.iprojeto >ul > li {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.iprojeto >ul > li {
+    margin-top: 20px;
+    color: white;
+  
+}
+
+.imgp {
+    width: 100px;
+}
+
+#imgs {
+  width: 40px;
+}
+
+.imgf {
+    width: 120px;
+}
